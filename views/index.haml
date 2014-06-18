@@ -1,0 +1,23 @@
+%section.intro
+  .intro-body
+    .container
+      .row
+        .col-md-8.col-md-offset-2
+          %h1.brand-heading Portalento
+          .page-scroll
+            %a.btn.btn-circle{href: "#about"}
+              %i.fa.fa-angle-double-down.animated
+
+%section#about.container.content-section
+  .row
+    .col-lg-8.col-lg-offset-2
+      %h2= I18n.t('about.title')
+      - I18n.t('about.paragraphs').each do |p|
+        %p= p
+
+%section#contact.container.content-section.text-center
+  .row
+    .col-lg-8.col-lg-offset-2
+      %h2= I18n.t('contact.title')
+      - I18n.t('contact.paragraphs').each do |p|
+        %p= p

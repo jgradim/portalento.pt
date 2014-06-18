@@ -1,0 +1,69 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
+    %meta{content: "", name: "description"}/
+    %meta{content: "", name: "author"}/
+    %title Portalento
+
+    / Bootstrap Core CSS
+    %link{href: "http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css", rel: "stylesheet", type: "text/css"}/
+
+    / Fonts
+    %link{href: "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css", rel: "stylesheet", type: "text/css"}/
+    %link{href: "http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic", rel: "stylesheet", type: "text/css"}/
+    %link{href: "http://fonts.googleapis.com/css?family=Montserrat:400,700", rel: "stylesheet", type: "text/css"}/
+
+    / Custom Theme CSS
+    %link{href: "css/grayscale.css", rel: "stylesheet"}/
+
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-51081736-1', 'portalento.pt');
+      ga('send', 'pageview');
+
+  %body#page-top{"data-spy" => "scroll", "data-target" => ".navbar-custom"}
+
+    %nav.navbar.navbar-custom.navbar-fixed-top{role: "navigation"}
+      .container
+
+        .navbar-header.page-scroll
+          %button.navbar-toggle{"data-target" => ".navbar-main-collapse", "data-toggle" => "collapse", type: "button"}
+            %i.fa.fa-bars
+          %a.navbar-brand{href: "#page-top"}
+            %i.fa.fa-play-circle
+            %span.light Portalento
+
+        / Collect the nav links, forms, and other content for toggling
+        .collapse.navbar-collapse.navbar-right.navbar-main-collapse
+          %ul.nav.navbar-nav
+            / Hidden li included to remove active class from about link when scrolled up past about section
+            %li.hidden
+              %a{href: "#page-top"}
+            %li.page-scroll
+              %a{href: "#about"}= I18n.t('nav.about')
+            %li.page-scroll
+              %a{href: "#contact"}= I18n.t('nav.contact')
+            %li.page-scroll
+              %a{href: I18n.t('nav.language_link')}
+                %strong= I18n.t('nav.language_label')
+
+    = yield
+
+    %section#attribution.container.content-section.text-center
+      .row
+        .col-lg-8.col-lg-offset-2
+          %p= I18n.t('attribution')
+
+    / Core JavaScript Files
+    %script{src: "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+    %script{src: "http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"}
+    %script{src: "http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"}
+
+    / Custom Theme JavaScript
+    %script{src: "js/grayscale.js"}

@@ -1,0 +1,25 @@
+pt:
+
+  nav:
+    about: Sobre nós
+    contact: Contacto
+    language_link: '/en'
+    language_label: English
+
+  about:
+    title: Sobre a Portalento
+    paragraphs:
+      - Portugal está cheio de talento para a programação. Apesar de ser um país pequeno, centenas e centenas de engenheiros de <em>software</em> saem de várias universidades todos os anos, muitos deles equipados com um mestrado. O país parece ter-se apercebido rapidamente do constante aumento na procura por talento tecnológico e tentado acompanhá-lo.
+      - A procura interna nunca foi tão grande mas muitas empresas portuguesas continuam a olhar para o desenvolvimento de <em>software</em> de uma forma tradicionalista. Isto é verdade em termos de processos mas é ainda mais prevalente no que respeita aos salários dos engenheiros. Acreditamos que a única razão para esta situação decepcionante é a falta de vontade que o talento tecnológico português tem de encontrar melhores condições no estrangeiro.
+      - Portugal tem uma enorme tradição de emigração laboral. Fomos responsáveis pela descoberta e colonização de uma grande parte da África, da Ásia e da América. Centenas de milhares de operários portugueses tentaram a sua sorte em França na segunda metade do século XX. Esta tendência voltou a surgir nos últimos tempos devido aos cortes orçamentais transversais a vários sectores profissionais. Achamos que isto não se aplica ao talento tecnológico já que este sector foi dos que menos sofreu com os cortes. A procura é a maior de sempre mas, como ter um emprego é entendido como um luxo, o conformismo parece estar a tornar-se uma tendência perigosa. E isto permite que as empresas de tecnologia continuem a oferecer salários embaraçosos aos engenheiros.
+      - Quanto mais tempo as pessoas ficarem, mais tempo vai demorar a mudar o <em>status quo</em>.
+      - Queremos ajudar os engenheiros a ver as coisas de maneira diferente. Queremos ajudá-los a encontrar melhores trabalhos, melhores salários, melhores experiências. Queremos mostrar aos empregadores portugueses que não vamos continuar a aceitar ser tratados abaixo dos nossos pares europeus. Queremos um futuro melhor.
+
+  contact:
+    title: Contacto
+    paragraphs:
+      - '<a href="mailto:hi@portalento.pt target="_blank">Envia-nos um email</a> para quaisquer questões, feedback, ou apenas para dizer olá!</p>'
+
+  attribution: 'Fotografia <a href="https://www.flickr.com/photos/mogello/6211571190" target="_blank">original</a> por <a href="https://www.flickr.com/photos/mogello" target="_blank">Michael Caroe Andersen</a>'
+
+  faq:

@@ -1,0 +1,25 @@
+en:
+
+  nav:
+    about: About
+    contact: Contact
+    language_link:  '/pt'
+    language_label: Português
+
+  about:
+    title: About Portalento
+    paragraphs:
+      - Programming talent is plentiful in Portugal. Even though it’s a small country, hundreds upon hundreds of software engineers graduate from several universities every year, many of them equipped with a master’s degree. It is as if, as a whole country, we realized early enough the apparently inexhaustible rise in demand for tech talent, and have been doing our best to keep up with it.
+      - Domestic demand is as high as ever, but many Portuguese companies are still struggling with adopting contemporary attitudes towards software development. This is sometimes true in terms of processes, but it’s even more prevalent in terms of engineer compensation. We believe the only reason for this disappointing state of affairs is the general unwillingness for portuguese tech talent to find better conditions abroad.
+      - Portugal has a big tradition of job migration. We were responsible for the discovery and colonization of a great part of Africa, Asia and the Americas. France saw hundreds of thousands of portuguese blue collar workers try their luck there in the second half of the 20th century. This trend is resurfacing again today due to the widespread budget cuts in many professional fields. We feel this doesn’t apply to tech talent since these cuts have not been significant in the technology sector. Demand is as high as ever, but since having a job is perceived as a luxury, there seems to be a damaging trend towards conformism. This allows tech companies to go on offering embarrassing levels of engineer compensation.
+      - The more people stay, the longer it will take to change the status quo. The market is artificially skewed because job migration is still perceived to be a big deal. We will show everyone how easy it can be to find a job, a house, and friends abroad.
+      - We want to help our engineers see things in a different light. We want to help them find better jobs, better pay, better experiences. We want to show our employers that we will no longer accept being treated below our european counterparts. We want a better future.
+      
+  contact:
+    title: Contact us
+    paragraphs:
+      - 'Feel free to <a href="mailto:hi@portalento.pt" target="_blank">shoot us an email</a> for any questions, feedback, or just to say hello!'
+
+  attribution: 'Original cover <a href="https://www.flickr.com/photos/mogello/6211571190" target="_blank">photo</a> by <a href="https://www.flickr.com/photos/mogello" target="_blank">Michael Caroe Andersen</a>'
+
+  faq:
