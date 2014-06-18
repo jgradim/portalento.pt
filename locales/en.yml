@@ -3,6 +3,7 @@ en:
   nav:
     about: About
     contact: Contact
+    process: Process
     language_link:  '/pt'
     language_label: Português
 
@@ -14,6 +15,19 @@ en:
       - Portugal has a big tradition of job migration. We were responsible for the discovery and colonization of a great part of Africa, Asia and the Americas. France saw hundreds of thousands of portuguese blue collar workers try their luck there in the second half of the 20th century. This trend is resurfacing again today due to the widespread budget cuts in many professional fields. We feel this doesn’t apply to tech talent since these cuts have not been significant in the technology sector. Demand is as high as ever, but since having a job is perceived as a luxury, there seems to be a damaging trend towards conformism. This allows tech companies to go on offering embarrassing levels of engineer compensation.
       - The more people stay, the longer it will take to change the status quo. The market is artificially skewed because job migration is still perceived to be a big deal. We will show everyone how easy it can be to find a job, a house, and friends abroad.
       - We want to help our engineers see things in a different light. We want to help them find better jobs, better pay, better experiences. We want to show our employers that we will no longer accept being treated below our european counterparts. We want a better future.
+
+  process:
+    title: The Process
+    paragraphs:
+      - "Send us an email manifesting your interest, and a little bit about yourself: your experience, both academic and professional, and what you're looking for."
+      - "We'll review your email and quickly decide if you'll be a good candidate or not."
+      - "We'll schedule an informal conversation with you, personally or remotely, where you'll have the opportunity to talk a bit more about yourself and whatever you previously sent us."
+      - "Your profile makes its way to Berlin, joining the talent pool used by companies to recruit new colaborators. It's possible our partners will wish to talk with you first before accepting your CV. This talk will be in English."
+      - "Whenever a company shows interest in your profile, it'll start the interview process with you. It's possible you'll get a paid trip to Berlin for an in-person interview."
+      - "When a company decides to hire you, your moving process will then start. We'll put you in contact with our administrative partners, who will help you in anything you need for you to make a smooth transition. This service is offered by us, and, as such, free of charge for you."
+      - "Enjoy your new life in Europe's capital!"
+    images:
+      -
       
   contact:
     title: Contact us

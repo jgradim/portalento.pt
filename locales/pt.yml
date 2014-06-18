@@ -3,6 +3,7 @@ pt:
   nav:
     about: Sobre nós
     contact: Contacto
+    process: Processo
     language_link: '/en'
     language_label: English
 
@@ -14,6 +15,19 @@ pt:
       - Portugal tem uma enorme tradição de emigração laboral. Fomos responsáveis pela descoberta e colonização de uma grande parte da África, da Ásia e da América. Centenas de milhares de operários portugueses tentaram a sua sorte em França na segunda metade do século XX. Esta tendência voltou a surgir nos últimos tempos devido aos cortes orçamentais transversais a vários sectores profissionais. Achamos que isto não se aplica ao talento tecnológico já que este sector foi dos que menos sofreu com os cortes. A procura é a maior de sempre mas, como ter um emprego é entendido como um luxo, o conformismo parece estar a tornar-se uma tendência perigosa. E isto permite que as empresas de tecnologia continuem a oferecer salários embaraçosos aos engenheiros.
       - Quanto mais tempo as pessoas ficarem, mais tempo vai demorar a mudar o <em>status quo</em>.
       - Queremos ajudar os engenheiros a ver as coisas de maneira diferente. Queremos ajudá-los a encontrar melhores trabalhos, melhores salários, melhores experiências. Queremos mostrar aos empregadores portugueses que não vamos continuar a aceitar ser tratados abaixo dos nossos pares europeus. Queremos um futuro melhor.
+
+  process:
+    title: O Processo
+    paragraphs:
+      - "Envia-nos um email a manifestar interesse e a falar um pouco de ti, da tua experiência académica e profissional, e do que estás à procura."
+      - "Nós revemos o teu email e rapidamente decidimos se serás um bom candidato(a) ou não."
+      - "Marcamos uma conversa contigo, pessoal ou remotamente, onde terás a oportunidade de falar um pouco mais de ti e expandir o que já tocaste no ponto 1."
+      - "O teu perfil segue para Berlim e juntar-se-á à talent pool de onde as empresas recrutam. É possível que os nossos parceiros queiram falar contigo antes de te aceitar. A conversa será em Inglês."
+      - "Quando uma empresa manifestar interesse no teu perfil, inicia o processo de entrevista contigo. É possível que te paguem uma viagem até Berlim para vires a uma entrevista em pessoa."
+      - "Quando uma empresa decidir que te quer contratar, iniciar-se então o processo da tua mudança. Aí pomos-te em contacto com os nossos parceiros administrativos, que te ajudarão em tudo o que precisares para a mudança. Este serviço é-te oferecido por nós e, como tal, gratuito para ti."
+      - "Desfruta da tua vida nova na capital da Europa!"
+    images:
+      -
 
   contact:
     title: Contacto

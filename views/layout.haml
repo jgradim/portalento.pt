@@ -18,6 +18,9 @@
     / Custom Theme CSS
     %link{href: "css/grayscale.css", rel: "stylesheet"}/
 
+    / Portalento specific css
+    %link{href: 'css/portalento.css', rel: 'stylesheet'}
+
     :javascript
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -48,6 +51,8 @@
             %li.page-scroll
               %a{href: "#about"}= I18n.t('nav.about')
             %li.page-scroll
+              %a{href: "#process"}= I18n.t('nav.process')
+            %li.page-scroll
               %a{href: "#contact"}= I18n.t('nav.contact')
             %li.page-scroll
               %a{href: I18n.t('nav.language_link')}
@@ -67,3 +72,6 @@
 
     / Custom Theme JavaScript
     %script{src: "js/grayscale.js"}
+
+    / Custom Portalento JavaScript
+    %script{src: "js/portalento.js"}

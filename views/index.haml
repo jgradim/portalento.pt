@@ -15,6 +15,12 @@
       - I18n.t('about.paragraphs').each do |p|
         %p= p
 
+%section#process.container.content-section
+  .row
+    .col-lg-8.col-lg-offset-2
+      %h2= I18n.t('process.title')
+      = haml :process
+
 %section#contact.container.content-section.text-center
   .row
     .col-lg-8.col-lg-offset-2

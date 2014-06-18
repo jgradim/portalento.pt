@@ -1,0 +1,16 @@
+.process
+
+  .process-step-control.prev-step
+    %i.fa.fa-chevron-left
+  .process-step-control.next-step
+    %i.fa.fa-chevron-right
+
+  .process-panels
+    - I18n.t('process.paragraphs').each.with_index do |p, step|
+      .process-panel{ 'data-step' => step, class: ('selected' if step.zero?) }
+        %p= p
+
+  .process-navigation
+    - 7.times do |step|
+      .process-step{ 'data-step' => step, class: ('selected' if step.zero?) }
+
