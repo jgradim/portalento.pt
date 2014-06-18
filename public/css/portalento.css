@@ -7,7 +7,7 @@
   top: 0;
   height: 100%;
   width: 10%;
-  line-height: 250px;
+  line-height: 270px;
   font-size: 32px;
   cursor: pointer;
 
@@ -41,13 +41,15 @@ user-select: none;
 .process-panels {
   position: relative;
   width: 80%;
-  height: 250px;
+  height: 270px;
   margin: 0 auto;
 }
 
 .process-panel {
   position: absolute;
-  height: 250px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
@@ -58,6 +60,11 @@ user-select: none;
 
 .process-panel p {
   text-align: center;
+}
+
+.process-panel .fa {
+  margin: 10px auto 30px;
+  font-size: 40px;
 }
 
 /*****************************************************************************/

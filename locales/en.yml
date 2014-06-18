@@ -27,7 +27,13 @@ en:
       - "When a company decides to hire you, your moving process will then start. We'll put you in contact with our administrative partners, who will help you in anything you need for you to make a smooth transition. This service is offered by us, and, as such, free of charge for you."
       - "Enjoy your new life in Europe's capital!"
     images:
-      -
+      - fa-envelope
+      - fa-filter
+      - fa-exchange
+      - fa-mail-forward
+      - fa-suitcase
+      - fa-plane
+      - fa-thumbs-up
       
   contact:
     title: Contact us
@@ -37,3 +43,17 @@ en:
   attribution: 'Original cover <a href="https://www.flickr.com/photos/mogello/6211571190" target="_blank">photo</a> by <a href="https://www.flickr.com/photos/mogello" target="_blank">Michael Caroe Andersen</a>'
 
   faq:
+    title: F.A.Q.
+    questions:
+      - Este serviço é gratuito?
+      - A Portalento opera apenas em Berlim?
+      - Não tenho formação em Informática. Podem ajudar-me na mesma?
+      - Quero mudar-me para Berlim mesmo antes de ser contratado. Que apoio me podem dar?
+      - Tenho de saber falar alemão?
+
+    answers:
+      - Sim! Se seguires o nosso processo, o serviço não tem quaisquer custos para ti.
+      - Por enquanto, Berlim é o nosso único mercado.
+      - A Portalento opera apenas com talento relacionado com Informática. No entanto, no caso de esta não ser a tua área de formação, podemos por-te em contacto com os nossos parceiros administrativos, que te podem apoiar na mudança. Nota que, neste caso, os custos do serviço terão de ser comportados por ti.
+      - Podemos por-te em contacto com os nossos parceiros administrativos que te podem apoiar na mudança. Nota que, neste caso, os custos do serviço terão de ser comportados por ti. Se tiveres interesse em te juntares à nossa talent pool e fores contratado(a) através de nós, a Portalento reembolsa-te estes custos prontamente.
+      - Não! Inglês é a língua universal em tecnologias de informação em Berlim.

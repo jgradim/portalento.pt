@@ -8,9 +8,10 @@
   .process-panels
     - I18n.t('process.paragraphs').each.with_index do |p, step|
       .process-panel{ 'data-step' => step, class: ('selected' if step.zero?) }
+        %i.fa{ class: I18n.t('process.images')[step] }
         %p= p
 
   .process-navigation
-    - 7.times do |step|
+    - I18n.t('process.paragraphs').size.times do |step|
       .process-step{ 'data-step' => step, class: ('selected' if step.zero?) }
 
