@@ -4,6 +4,7 @@ en:
     about: About
     contact: Contact
     process: Process
+    faq: FAQ
     language_link:  '/pt'
     language_label: Português
 
@@ -43,17 +44,17 @@ en:
   attribution: 'Original cover <a href="https://www.flickr.com/photos/mogello/6211571190" target="_blank">photo</a> by <a href="https://www.flickr.com/photos/mogello" target="_blank">Michael Caroe Andersen</a>'
 
   faq:
-    title: F.A.Q.
+    title: Frequently Asked Questions
     questions:
-      - Este serviço é gratuito?
-      - A Portalento opera apenas em Berlim?
-      - Não tenho formação em Informática. Podem ajudar-me na mesma?
-      - Quero mudar-me para Berlim mesmo antes de ser contratado. Que apoio me podem dar?
-      - Tenho de saber falar alemão?
+      - Is the service free?
+      - Does Portalento operate exclusively in Berlin?
+      - I don't have a background in software. Can you still help me?
+      - I want to move to Berlin even before I'm hired. What help can you give me?
+      - Do I need to speak German?
 
     answers:
-      - Sim! Se seguires o nosso processo, o serviço não tem quaisquer custos para ti.
-      - Por enquanto, Berlim é o nosso único mercado.
-      - A Portalento opera apenas com talento relacionado com Informática. No entanto, no caso de esta não ser a tua área de formação, podemos por-te em contacto com os nossos parceiros administrativos, que te podem apoiar na mudança. Nota que, neste caso, os custos do serviço terão de ser comportados por ti.
-      - Podemos por-te em contacto com os nossos parceiros administrativos que te podem apoiar na mudança. Nota que, neste caso, os custos do serviço terão de ser comportados por ti. Se tiveres interesse em te juntares à nossa talent pool e fores contratado(a) através de nós, a Portalento reembolsa-te estes custos prontamente.
-      - Não! Inglês é a língua universal em tecnologias de informação em Berlim.
+      - Yes! If you follow our process, there are no costs for you.
+      - At the moment, Berlin is our only market.
+      - Portalento works exclusively with software-oriented talent. However, if this is not your case, we can put you in contact with our administrative partners, who can help you move. Note that, in this case, the associated costs will have to be covered by you.
+      - We can get you in touch with our administrative partners, who can help you move. Note that, in this case, the associated costs will have to be covered by you. If, you're interested in joining our talent pool and end up being hired through us, Portalento will reimburse you promptly for these costs.
+      - No! English is the universal language for information technologies in Berlin.

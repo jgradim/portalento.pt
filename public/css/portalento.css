@@ -84,3 +84,8 @@ user-select: none;
 .process-step.selected {
   -webkit-transform: scale(2, 2);
 }
+
+/*****************************************************************************/
+#faq h4 {
+  text-align: left
+}
